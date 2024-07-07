@@ -2,7 +2,7 @@
 
 This is a simple To-Do List application built using React and Carbon Design System, with custom CSS styling.
 
-<img src="./my-todo-app/assets/photo.png"><br>
+<img src="./src/assets"><br>
 
 ## Features
 

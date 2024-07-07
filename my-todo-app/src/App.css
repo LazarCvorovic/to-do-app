@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./assets/slika1.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Box {
+  background: #050A30;
+  padding: 3rem; /* Increase padding */
+  border-radius: 10px; /* Increase border radius */
+  width: 500px; /* Increase width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #ffffff; /* Add white border */
+}
+
+.title {
+  color: #fff;
+  margin-top: 40px; /* Increase margin */
+  margin-bottom: 4rem; /* Increase margin */
+  font-size: 3.5rem; /* Increase font size */
+  text-align: center;
+}
+
+.TodoWrapper {
+  background: #8758ff;
+  padding: 3rem; /* Increase padding */
+  border-radius: 10px; /* Increase border radius */
+  width: 500px; /* Increase width */
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.TodoForm {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space items evenly */
+  width: 100%;
+  margin-bottom: 2rem; /* Increase margin bottom */
+}
+
+.todo-input {
+  flex-grow: 1; /* Allow input to grow and take available space */
+  margin-right: 1rem; /* Add some space between input and button */
+  outline: none;
+  background: #fff;
+  border: none;
+  padding: 1rem 2rem; /* Increase padding */
+  margin-top: 2rem; /* Increase margin top */
+  margin-bottom: 3rem; /* Increase margin bottom */
+  width: 100%;
+  color: #000;
+  font-size: 1.5rem; /* Increase font size */
+  border-radius: 20px;
+}
+
+.todo-input::placeholder {
+  color: #a9a9a9;
+}
+
+.todo-btn {
+  background: #1A1A40;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1A1A40;
+  color: #fff;
+  padding: 1.5rem 2rem; /* Increase padding */
+  border-radius: 100px; /* Increase border radius */
+  margin-bottom: 1.5rem; /* Increase margin bottom */
+  font-size: 1.5rem; /* Increase font size of the task text */
+}
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
+
+.delete-logo {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.naslov{
+  color: #f9f9f9;
+}

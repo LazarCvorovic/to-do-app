@@ -2,7 +2,7 @@
 
 This is a simple To-Do List application built using React and Carbon Design System, with custom CSS styling.
 
-<img src="./src/assets/slika1.jpeg" alt="Application Screenshot" width="600">
+<img src="./slika1.jpeg" alt="Application Screenshot" width="600">
 
 ## Features
 

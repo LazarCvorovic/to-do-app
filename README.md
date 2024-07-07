@@ -24,3 +24,10 @@ Clone the repository:
 ```bash
 git clone https://github.com/LazarCvorovic/to-do-app
 cd your-repo-name
+
+```
+npm create vite@latest my-todo-app --template react-ts
+npm install @carbon/react @carbon/icons-react
+npm install @types/react @types/react-dom
+npm install
+```

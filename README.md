@@ -2,7 +2,7 @@
 
 This is a simple To-Do List application built using React and Carbon Design System, with custom CSS styling.
 
-<img src="./src/assets"><br>
+<img src="./src/assets/slika1.jpeg" alt="Application Screenshot" width="600">
 
 ## Features
 
@@ -22,5 +22,5 @@ This is a simple To-Do List application built using React and Carbon Design Syst
 
 Clone the repository:
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/LazarCvorovic/to-do-app
 cd your-repo-name
